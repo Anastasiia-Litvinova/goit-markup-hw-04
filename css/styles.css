@@ -535,7 +535,8 @@ header > .container {
 .social-list {
   display: flex;
   justify-content: space-between;
-  padding-top: 20px;
+  margin-top: 20px;
+  padding: 0;
 }
 
 .social-icon {
