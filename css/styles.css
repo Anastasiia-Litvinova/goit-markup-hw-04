@@ -371,7 +371,7 @@ header > .container {
 .social-list-icon {
   width: 20px;
   height: 20px;
-  fill: currentColor;
+  fill: var(--footer-email-tel);
 }
 
 .social-list-link {
@@ -446,9 +446,7 @@ header > .container {
 }
 
 .clients-list-icon {
-  fill: currentColor;
-  width: 90px;
-  height: 60px;
+  fill: var(--footer-email-tel);
 }
 
 /* ========== END OUR CLIENTS ========== */
@@ -543,7 +541,7 @@ header > .container {
 .social-icon {
   width: 20px;
   height: 20px;
-  fill: currentColor;
+  fill: var(--hero-title-color);
 }
 
 /* ========== END FOOTER ========== */
