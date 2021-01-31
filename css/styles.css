@@ -305,6 +305,10 @@ header > .container {
 }
 
 .pictures-list-item {
+  width: 370px;
+}
+
+.pictures-list-photo {
   display: block;
 }
 /* ========== END WHAT WE DO ========== */
