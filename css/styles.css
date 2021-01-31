@@ -137,12 +137,15 @@ button {
   color: inherit;
   padding-top: 32px;
   padding-bottom: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: currentColor;
 }
 
 .icon-smartphone,
 .icon-envelope {
   margin-right: 10px;
-  fill: currentColor;
 }
 
 .contact-link:hover .icon-smartphone,
@@ -371,17 +374,17 @@ header > .container {
 .social-list-icon {
   width: 20px;
   height: 20px;
-  fill: var(--footer-email-tel);
 }
 
 .social-list-link {
-  width: 44px;
-  height: 44px;
+  width: 100%;
+  height: 100%;
   background-color: var(--hero-title-color);
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
+  fill: var(--footer-email-tel);
 }
 
 .social-list-link:hover,
@@ -393,6 +396,11 @@ header > .container {
   display: flex;
   justify-content: center;
   padding-top: 16px;
+}
+
+.social-list-item {
+  width: 44px;
+  height: 44px;
 }
 
 .social-list-item:not(:last-child) {
@@ -437,6 +445,7 @@ header > .container {
   display: flex;
   justify-content: center;
   align-items: center;
+  fill: var(--footer-email-tel);
 }
 
 .clients-list-link:hover,
@@ -447,10 +456,6 @@ header > .container {
 .clients-list-link:hover .clients-list-icon,
 .clients-list-link:focus .clients-list-icon {
   fill: var(--accent-color);
-}
-
-.clients-list-icon {
-  fill: var(--footer-email-tel);
 }
 
 /* ========== END OUR CLIENTS ========== */
@@ -523,13 +528,19 @@ header > .container {
 }
 
 .social-link {
-  width: 44px;
-  height: 44px;
+  width: 100%;
+  height: 100%;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
+  fill: var(--hero-title-color);
+}
+
+.social-item {
+  width: 44px;
+  height: 44px;
 }
 
 .social-link:hover,
@@ -546,7 +557,6 @@ header > .container {
 .social-icon {
   width: 20px;
   height: 20px;
-  fill: var(--hero-title-color);
 }
 
 /* ========== END FOOTER ========== */
@@ -585,6 +595,8 @@ header > .container {
 .btn-item:hover {
   color: var(--hero-title-color);
   background-color: var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .work-list {
@@ -596,7 +608,6 @@ header > .container {
   margin-right: 30px;
   margin-bottom: 30px;
   width: 370px;
-  height: 404px;
   outline: 1px solid var(--color-border-portfolio);
 }
 
@@ -636,7 +647,6 @@ header > .container {
 
 .working-item {
   width: var(--portfolio-box-width);
-  height: 404px;
   background: var(--hero-title-color);
 }
 
