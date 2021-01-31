@@ -356,7 +356,7 @@ header > .container {
 .worker-position {
   text-transform: capitalize;
   margin-top: 0;
-  margin-bottom: 0px;
+  margin-bottom: 16px;
 }
 
 .worker-info-item {
@@ -393,6 +393,10 @@ header > .container {
   display: flex;
   justify-content: center;
   padding-top: 16px;
+}
+
+.social-list-item:not(:last-child) {
+  margin-right: 10px;
 }
 
 .social-list-link:hover .social-list-icon,
@@ -514,7 +518,8 @@ header > .container {
   font-weight: 700;
   text-transform: uppercase;
   color: var(--hero-title-color);
-  margin: 0;
+  margin-bottom: 20px;
+  margin-top: 0;
 }
 
 .social-link {
@@ -535,7 +540,6 @@ header > .container {
 .social-list {
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
   padding: 0;
 }
 
