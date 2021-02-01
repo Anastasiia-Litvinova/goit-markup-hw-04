@@ -426,7 +426,7 @@ header > .container {
 }
 
 .clients-list {
-  padding-top: 50px;
+  margin-top: 50px;
 }
 
 .clients-list {
@@ -634,6 +634,7 @@ header > .container {
   letter-spacing: 0.06em;
   color: var(--working-title);
   margin: 0;
+  margin-bottom: 4px;
 }
 
 .working-type {
